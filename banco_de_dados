@@ -1,0 +1,10 @@
+CREATE DATABASE usuarios_evas;
+USE usuarios_evas;
+
+CREATE TABLE usuarios (
+id INT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(255) NOT NULL,
+senha VARCHAR(45) NOT NULL,
+telefone VARCHAR(20),
+imagem VARCHAR(20)
+);
